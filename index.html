@@ -1,82 +1,442 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>FT Velcro - FT.com Style Guide</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Designtest : First repo to test how we can start creating a Github site using the sitemaking software / tools / features" />
+<link rel="shortcut icon" href="assets/i/favicon.png">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<meta name="description" content="FT's style guide for the desktop site FT.com" />
+<meta name="keywords" content="style, Financial Times, design, development" />
 
-    <title>Designtest</title>
-  </head>
 
-  <body>
+<link href="f/ft-fonts.css" rel="stylesheet" type="text/css">
+<link href="http://financial-times.github.io/ft-velcro/velcro/css/ft-velcro.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/pauloneillft/designtest">View on GitHub</a>
 
-          <h1 id="project_title">Designtest</h1>
-          <h2 id="project_tagline">First repo to test how we can start creating a Github site using the sitemaking software / tools / features</h2>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/pauloneillft/designtest/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/pauloneillft/designtest/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<body>
+<div id="wrapper">
+
+<header>
+	<div id="topbar">
+    	<img style="margin:8px;" src="i/v-dot.png" alt="Velcro logo" />
+    	<ul id="mainnav">
+    		<li><a>HOME</a></li>
+            <li><a>WHAT IS VELCRO?</a></li>
+            <li><a>CONTACT</a></li>
+        </ul>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="my-first-test-website" class="anchor" href="#my-first-test-website"><span class="octicon octicon-link"></span></a>My first test website</h3>
-
-<h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Designtest maintained by <a href="https://github.com/pauloneillft">pauloneillft</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
     
+    <div id="midbar" class="clearfix">
+    		
+        	<div id="leftnav">
+            <h2 class="navhead">Page elements</h2>
+                <ul>
+                    <li><a href="#grid">The Grid</a></li>
+                    <li><a href="#links">FT Links</a></li>
+                    <li><a href="#fonts">FT Fonts</a></li>
+                    <li><a href="#colour">Colour Palette</a></li>
+                    <li><a href="#modules">Modules</a></li>
+                    <li><a href="#index">Index pages (section pages)</a></li>
+                    <li><a href="#article">Article Links</a></li>
+                    <li><a href="#forms">Form styles</a></li>
+                    <li><a href="#non-article">Non article elements</a></li>
+                </ul>
+        	</div>
+            
+        	<div id="introblock">
+        	
+           		<h1>FT.com Style Guide</h1>
+              		<p><em>using the FT's code library</em></p>
+                
+              	<p><img src="i/velcro-logo.png" width="190" height="46" alt="Velcro logo" /></p>
+                
+                <p>The following pages show the layout, style, colours and dimension instructions for all components on the FT.com website. Adhere strictly to this style guide to create the correct uniformity and consistency across all the FT.com's site elements. If you have any queries please contact the FT.com Design & UX team.</p>
+              
+        	</div><!-- introblock-->
+      
+    </div><!-- midbar-->
+    
+</header>
+<div id="content">
 
-  </body>
+
+<a id="grid"></a>
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">GRID</h2>
+</div>
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the grid file</h2>
+    </div>
+    <p>
+      This PSD contains a rough grid file you can to use while layout out your page. <a href="#">Grid file</a><br><br>Have a look at the non-article page <a href="#">examples </a>to get some ideas on how you can layout your page. </p>
+</div><!-- snippet close-->
+<p></p>
+<p>The FT site width is 972px. All page components are designed to fit within the FT grid. For example the right-hand rail (RHR) is always 6 divisions wide. The grid consists of 16 divisions 42px wide with 20px gutter between each.
+When creating new module, widgets or components make sure your widths conform to the FT grid. Always use 20px gutter's between items.</p>
+<img name="image" src="i/grid.png" alt="image" style="background-color: #CCCCCC">
+<p></p>
+<a id="links"></a>
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">FT LINKS</h2>
+</div>
+
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+
+<p></p>
+<p>Standard FT links are always blue: black on hover</p>
+<p>Article Links are always black: or blue on hover.</p>
+
+<a id="fonts"></a>
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">FONTS</h2>
+</div>
+
+
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+
+<p></p>
+<p><strong>Benton Sans</strong>
+Used for all normal text that is non article </p>
+<p><strong>Georgia</strong>
+ONLY ever used for article text. If at all possible never use Georgia Italic</p>
+<p><strong>Arial</strong>
+This is the fallback standard font while we're transitioning over to Benton Sans</p>
+
+<a id="colour"></a>
+
+<div class="ft-header-small ft-header-small-titlecenter">
+    <h3 class="ft-header-small-title capping">Common Colours</h3>
+</div>
+<p></p>
+
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+
+    <h4>Common colours</h4>
+<ul class="stanul">
+<li>FT Blue - Only used for links only</li>
+<li>FT Pink - the background colour for FT</li>
+</ul>
+
+<p></p>
+
+
+<div class="ft-header-small ft-header-small-titlecenter">
+    <h3 class="ft-header-small-title capping">Tints</h3>
+</div>
+<p></p>
+
+<p>Use a combination of these tints to create your page elements and differentiate different page elements. These tints are preferred to the exceptional colours in the ancillary category below.</p>
+<ul class="stanul">
+<li><strong>FT Tint 1</strong> #f6e9d8<p>Example use is the background for the RHR</p></li>
+<li><strong>FT Tint 2</strong> #e9decf<p>Example use is the background of module headers in the RHR</p></li>
+<li><strong>FT Tint 3</strong> #cec6b9</li> Often used for text when on a tint background.
+</ul>
+<p></p>
+
+<div class="ft-header-small ft-header-small-titlecenter">
+    <h3 class="ft-header-small-title capping">Greys</h3>
+</div>
+<p></p>
+
+Greys can be used on pages that employ a reversed colours scheme or dark styling. An example is video.ft.com
+<ul class="stanul">
+<li>Warm grey 1</li>
+<li>Warm grey 2</li>
+<li>Cool grey 1</li>
+<li>Cool grey 2</li>
+<li>Dark grey 1</li>
+</ul>
+<p></p>
+
+<div class="ft-header-small ft-header-small-titlecenter">
+    <h3 class="ft-header-small-title capping">Ancillary colours</h3>
+</div>
+
+<p></p>
+<ul class="stanul">
+<li><strong>FT Claret</strong> - used for Special Report titles. This colour can be used as an accent colour for elements and designs that specifically need to stand-out strongly. Be warned that that the Claret is used sparingly so don’t over-do it.</li>
+
+<li><strong>Green </strong>- typically used for arrows, positive actions on marketing pages</li>
+<li><strong>Red </strong>- used for warnings and emergency messaging</li>
+</ul>
+<p></p>
+<div class="ft-header-small ft-header-small-titlecenter">
+    <h3 class="ft-header-small-title capping">Chart colours</h3>
+</div>
+<p></p>
+
+The following colours are used in charts across FT.com
+<ul class="stanul">
+<li>Colour here</li>
+<li>Colour here</li>
+<li>Colour here</li>
+<li>Colour here</li>
+<li>Colour here</li>
+</ul>
+
+<p></p>
+
+
+
+<a id="modules"></a>
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">MODULES</h2>
+</div>
+<p></p>
+<p>A module is a container that holds a piece of content.  There are many different types of that exist in the Main Content Column (MCC) or in the Right-hand Rail (RHR) column. Content varies from promotional boxes, feeds to signposting to other content within the site.</p>
+<p>All modules have one Velcro unit of space (30px) at the bottom.</p>
+
+<h3>Main Content Column Modules</h3>
+<p>There are many different types of element types that only appear in the MCC.</p>
+
+<div class="ident">
+            
+            <h4>Page title (Primary Level)</h4>
+            <p>These are used on non-article pages to give the page a name. Note: Do not use standard article titles to create page titles for non-article pages. This referred to as a primary level item.</p>
+            
+            <h4>Secondary module title (Secondary Level)</h4>
+            <p>These appear most commonly on the homepage and different section home pages on the site (e.g. World, Companies, Markets, Global Economy etc). Section homepages are referred to as “FT index pages”.</p>
+            
+            <p>On the Homepage for example the More Stories, Multimedia and Offers module use this style. See example below</p>
+             <img name="image" src="i/secondary-module.png" alt="image" style="background-color: #CCCCCC">
+             
+             
+            <h4>Content bundle with title (Tertiary Level)</h4>
+            <div class="snippet indent1">Grab the <a href="http://financial-times.github.io/ft-velcro/">Velcro</a> code!</div>
+            
+            <p>This title is a collection of stories or content about a similar subject or a series of content that is deemed editorially to be relevant to with each other. The example below shows a list of columnists but this could also be stories or anything else.</p>
+            <p>Could be a video (show example)</p>
+            <img name="image" src="i/content-bundle-title.png" alt="image" style="background-color: #CCCCCC">
+            
+            <h4>Content bundle untitled (Tertiary Level)</h4>
+            <p>This is a list of content which wont necessarily have a title. There are already a few types in existence. The example below is called a Midriff and exists on section pages or the homepage.</p>
+            <h5>Midriff</h5>
+            <p>A midriff is an small area that interrupts a list of articles to add some variation to the page layout. Midriffs are used to surface other content often unrelated to what’s on the page (but not always). The example below holds a list of articles from the UK section in the first column the left (A) and a single page Special Report in the second column on the right (B)</p>
+            <img name="image" src="i/midriff.png" alt="image" style="background-color: #CCCCCC">
+            <p></p>
+            <div class="highlight">
+            <h3>Footer Rule</h3>
+            <p>Velcro contains a footer style which is a simple line. This is used as a device to visually seperate page elements. However there are certain cases where the footer is not needed. Below are the rules for how footers whould be used
+            <ol>
+ <li> Insert the Velcro footer under a module when it is followed by ordinary content (example in Midriff sample above).</li>
+ <li>If a module is followed by another module do not use a footer. </li>
+
+ </ol>           </p> 
+            </div>
+
+</div><!--ident-->
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">Right-hand Rail Modules</h2>
+</div>
+
+<p>RHR modules are stacked on top of each other on the right-hand side of the page. They are always 6 grid columns wide or 342px.</p>
+<p>Examples of type of modules that exist in the RHR; RSS feed, Twitter feed, Most read article, Social media links, Other articles in this section, Latest stories from...</p>
+   
+<div class="ident">
+            <h4>Standard module header</h4>
+            <div class="snippet indent1">Grab the <a href="http://financial-times.github.io/ft-velcro/">Velcro</a> code!</div>
+            <p>Each module has a header with a tinted background. The text inside the module header is always capitalised. Never use lowercase.</p>
+            <img name="image" src="i/RHR-module.png" alt="image" style="background-color: #CCCCCC">
+            
+            <h4>Right Rail Lists</h4>
+            <p>Items listed within a RHR module should appear as follows. </p>
+            <p><img name="image" src="i/RHR-lists.png" alt="image" style="background-color: #CCCCCC"></p>
+            
+            <h4>Tabbed module header</h4>
+            <p>In certain circumstances the RHR module might need tabs. There two types;</p>
+            
+            <div class="ident">
+            
+                        <h5>a) Minor Tabbed RHR module</h5>
+                        <div class="snippet indent2">Grab the <a href="http://financial-times.github.io/ft-velcro/">Velcro</a> code!</div>
+                        <p>This contains a major title with minor titles aligned right and an arrow underneath each item to indicate the selected state. See example.</p>
+                        <img name="image" src="i/RHR-minor-tabbed.png" alt="image" style="background-color: #CCCCCC">
+                        
+                        <h5>b) Major Tabbed RHR module</h5>
+                        <div class="snippet indent2">Grab the <a href="http://financial-times.github.io/ft-velcro/">Velcro</a> code!</div>
+    <p>This is only ever to be used for Fast FT</p>
+                        <img name="image" src="i/RHR-major-tabbed.png" alt="image" style="background-color: #CCCCCC">
+            </div><!--ident-second-->
+            
+            
+            
+            
+            
+</div><!--identfirst-->
+
+<a id="top5"></a>
+
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title capping">TOP 5 MODULE</h2>
+</div>
+
+<p>On the FT.com homepage the top 5 stories of the day are displayed in a bespoke two column layout. This conforms to the FT grid with a 7:3 ratio split. There are 3 types of layout;</p>
+<ul class="stanul">
+<li>Standard top5</li>
+<li>Stand-alone top5</li>
+<li>Slideshow top5</li>
+<li>Assassination top5</li>
+</ul>
+
+<h3>Standard</h3>
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+
+<img name="image" src="i/top5stan.png" alt="image" style="background-color: #CCCCCC">
+<h3>Assassination</h3>
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+<img name="image" src="i/top5ass.png" alt="image" style="background-color: #CCCCCC">
+<h3>Slideshow</h3>
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+<img name="image" src="i/top5slide.png" alt="image" style="background-color: #CCCCCC">
+<h3>Standalone</h3>
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+<img name="image" src="i/top5stan.png" alt="image" style="background-color: #CCCCCC">
+
+
+<a id="index"></a>
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title">Section Pages (Index pages)</h2>
+</div>
+<p>Section pages are commonly refered to as "index" pages. Every section of the site has an index page (UK, Companies, World) which acts like a homepage for the article listed inside. Most index pages will have the top ten articles listed. Some will have the top twenty articles listed.</p>
+
+<a id="Article"></a>
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title">Article link styles</h2>
+</div>
+
+<div class="snippet">
+    <div class="ft-header-medium ft-header-medium-tint">
+        <h2 class="ft-header-medium-title capping">Grab the Velcro code</h2>
+    </div>
+    <p>
+      Retrieve the the specific CSS classes needed to display this page element.<br><a href="http://financial-times.github.io/ft-velcro/">Velcro code</a>
+    </p>
+</div><!-- snippet close-->
+    <p>Inside these top ten (and the homepage top five) there are various styles governing the article links styles and other parallel information. See below.</p>
+    
+    <img name="image" src="i/article-graphic.png" alt="image" style="background-color: #CCCCCC">
+    
+    <h3>Title</h3>
+    <p>Exactly what it says article title</p>
+    
+    
+    <h3>Lead body</h3>
+    <p>Short summary line introducing the story underneath a title</p>
+    
+    <h3>Timestamp</h3>
+    <p>This always appears after an article on index pages.</p>
+    
+    <h3>Kicker</h3>
+    <p>short discriptor before title</p>
+    
+    <h3>From</h3>
+    <p>Often a story will come from a different section</p>
+
+<a id="forms"></a>
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title">Form styles</h2>
+</div>
+
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.</p>
+
+<h3>Subhead</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
+
+
+<a id="tab"></a>
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title">Tab styles</h2>
+</div>
+
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.</p>
+
+<h3>Subhead</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
+
+
+<a id="overlays"></a>
+<div class="ft-header-medium">
+    <h2 class="ft-header-medium-title">Overlay styles</h2>
+</div>
+
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.</p>
+
+<h3>Subhead</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
+
+
+
+</div><!--content-->
+<footer>
+<a href="#">Back to top</a>   
+<span style="text-align:right;">Copyright Financial Times © </span></footer>
+</div><!--wrapper -->
+</body>
 </html>
